@@ -16,7 +16,7 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://superdev.fun"),
+  metadataBase: new URL("https://superdev-three.vercel.app/"),
   title: "Superdev Fellowship 2025 | Build on Solana",
   description: "Join the Superdev Fellowship 2025 - An 8-week cohort for SuperDevs building on Solana. Learn from top mentors, ship real Web3 projects, and get paid $2,500.",
   keywords: ["Superdev Fellowship", "Solana", "Web3", "Blockchain Development", "Developer Program", "Cohort 2025"],

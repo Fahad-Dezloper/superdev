@@ -27,7 +27,7 @@ const SideBar = () => {
       
       {/* Always-visible sidebar */}
       <div
-        className="fixed top-0 left-0 w-[10vw] shadow-md py-8 md:flex hidden flex-col gap-[18vw] items-center h-full bg-white dark:bg-[#18181b] z-50"
+        className="fixed top-0 left-0 w-[10vw] shadow-md py-8 md:flex hidden flex-col gap-[18vw] items-center h-full bg-white dark:bg-[#121316] z-50"
       >
         <div className="w-full flex justify-center">
           <MenuIcon
@@ -37,7 +37,7 @@ const SideBar = () => {
             onMouseLeave={handleMouseLeave}
           />
         </div>
-        <h1 className="rotate-270 text-[3vw] whitespace-nowrap font-primary">Summer of Blockchain</h1>
+        <h1 className="rotate-270 text-[3vw] whitespace-nowrap font-primary">Superdev Fellowship</h1>
       </div>
 
       {/* Sliding sidebar menu */}
