@@ -15,16 +15,16 @@ const Footer = () => {
           <div className='flex gap-8 md:gap-16'>
           <div className='flex flex-col gap-2'>
             <h3 className='font-semibold mb-2 text-gray-900 dark:text-white'>Links</h3>
-            <a href="#" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Program Details</a>
-            <a href="#" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Timeline</a>
-            <a href="#" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Requirements</a>
+            <a href="#program-details" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Program Details</a>
+            <a href="#timeline" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Timeline</a>
+            <a href="#requirements" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Requirements</a>
           </div>
 
           {/* Socials Section */}
           <div className='flex flex-col gap-2'>
             <h3 className='font-semibold mb-2 text-gray-900 dark:text-white'>Socials</h3>
-            <a href="#" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Twitter</a>
-            <a href="#" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Email</a>
+            <a href="https://x.com/kirat_tw" target='_blank' className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Twitter</a>
+            <a href="mailto:contact@100xdevs.com" className='text-gray-600 dark:text-gray-400 hover:text-[#51A2FF] dark:hover:text-[#51A2FF] transition-colors'>Email</a>
           </div>
           </div>
 

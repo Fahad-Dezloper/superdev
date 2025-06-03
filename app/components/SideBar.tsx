@@ -17,7 +17,7 @@ const SideBar = () => {
   const handleMouseLeave = () => setOpen(false);
 
   return (
-    <div className="relative h-full w-[10vw]">
+    <div className="relative hidden md:block h-full w-[10vw]">
       {/* Dark overlay */}
       <div 
         className={`fixed inset-0 bg-black/50 transition-opacity duration-300 z-30
