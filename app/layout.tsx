@@ -89,6 +89,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/favicon_io/apple-icon.png" type="image/png" />
         <link rel="apple-touch-icon-precomposed" href="/favicon_io/apple-touch-icon-precomposed.png" />
         <link rel="manifest" href="/site.webmanifest" />
+
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="d37a5568-ea4c-4461-9e42-53df6637cbe6"></script>
       </head>
       <body
         className={`${sora.variable} ${chakra.variable} antialiased`}
