@@ -110,7 +110,7 @@ const AboutProgram = () => {
                 <p className='text-gray-600 dark:text-gray-400'>Everything you need to know</p>
               </div>
 
-              <div className='w-full h-[25vh] bg-red-500 rounded-2xl overflow-hidden'>
+              <div className='w-full h-[25vh]  rounded-2xl overflow-hidden'>
                 <iframe className='w-full h-full object-cover' src="https://www.youtube.com/embed/dfV1ziyNJPk" title="Superdev fellowship 2025" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
 
